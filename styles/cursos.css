@@ -6,17 +6,18 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 body{
     background-color: rgb(8, 8, 8);
 }
 
+/* styles de inicio */
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .encabezado{
@@ -123,7 +124,9 @@ body{
     position: fixed;
     bottom: 0;
 }
+
 .container-nav span{
+    cursor: pointer;
     font-size: 2rem; 
     color: white;
 }
@@ -145,4 +148,127 @@ body{
     text-align: center;
     color: white;
     font-family: 'Nunito', sans-serif;
+}
+/* Fin styles del inicio */
+
+/* Estilos del Perfil */
+.container-perfil{
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.title-perfil{
+    padding: 10px 0px 0px 20px;
+    color: white;
+}
+
+.info-perfil{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.logout{
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: gray;
+    color: rgb(184, 35, 35);
+}
+/* Fin styles del perfil */
+
+/* styles cursos */
+.container-curso{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso-encabezado{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.bar-progress{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    background-color: transparent;
+    margin: 0px 20px 0px 20px;
+}
+
+.progress{
+    position: relative;
+    border-radius: 4px;
+    width: 0;
+    height: 100%;
+    background-color: #2CB67D;
+}
+
+.pregunta{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.preguntaP{
+    font-size: 22px;
+    margin: 20px 0px 0px 20px;
+}
+
+.preguntaO{
+    font-size: 22px;
+    margin-top: -80px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.opcionesImg{
+    max-width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opcion-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border: 2px solid white;
+    background-color: #232E35;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.btnComprobar{
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px 100px;
+    color: white;
+    border-radius: 10px;
+    background-color: #D4CAF3;
+}
+
+.resp{
+    background-color: #AB90FF;
 }

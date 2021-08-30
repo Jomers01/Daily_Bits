@@ -1,0 +1,76 @@
+{
+    "cursohtml":
+    [
+        {
+                "id": 0,
+                "imagen": "./imagesW/chico.png",
+                "pregunta": "¿Qué etiqueta es semánticamente correcta para el contenido principal?",
+                "opcion1": "main",
+                "opcion2": "section",
+                "opcion3": "header",
+                "respuesta": "main",
+                "tipo": "seleccion"
+        }, 
+        {
+            "id": 1,
+            "imagen": "./images/chica.png",
+            "pregunta": "¿Qué estiqueta HTML nos sirve para incluir archivos de JavaScript?",
+            "opcion1": "<code>&lt;br&gt</code>",
+            "opcion2": "<code>&lt;script&gt</code>",
+            "opcion3": "<code>&lt;style&gt</code>",
+            "respuesta": "<code><script></code>",
+            "tipo": "seleccion"
+        },
+        {
+            "id": 2,
+            "imagen": "./images/chica2.png",
+            "pregunta": "¿Que significa DRY",
+            "opcion1": "Don`t repeat yellow",
+            "opcion2": "Don`t repeat yourself",
+            "opcion3": "Don`t repeat year",
+            "respuesta": "Don`t repeat yourself",
+            "tipo": "seleccion"
+        },
+        {
+            "id": 3,
+            "pregunta": "Organiza la estructura de un documento HTML5",
+            "opcion1": "<code>&lt;DOCTYPE html&gt</code>",
+            "opcion2": "<code>&lt;body&gt&lt;/bodyl&gt</code>",
+            "opcion3": "<code>&lt;head&gt&lt;/headl&gt</code>",
+            "opcion4": "<code>&lt;html&gt<code>",
+            "opcion5": "<code>&lt;/html&gt</code>",
+            "tipo": "arrastrar",
+            "respuesta": [
+            "<DOCTYPE html>",
+            "<html>",
+            "<head></head>",
+            "<body></body>",
+            "</html>"
+            ]
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Que tecnologías pertenecen al MEVN Stack?",
+            "opcion1": "<img class='imgSelect' src='./images/vue.png'>",
+            "opcion1text": "Vue.js",
+            "opcion2": "<img class='imgSelect' src='./images/angular.png'>",
+            "opcion2text": "Angular",
+            "opcion3": "<img class='imgSelect' src='./images/windows.png'>",
+            "opcion3text": "Windows",
+            "opcion4": "<img class='imgSelect' src='./images/kotlin.png'>",
+            "opcion4text": "Kotlin",
+            "respuesta": "Vue.js",
+            "tipo": "imagen"
+        }
+    ],
+    "cursocss": [
+        {
+            "id": 6
+        }
+    ],
+    "cursojs": [
+        {
+            "id": 7
+        }
+    ]
+}

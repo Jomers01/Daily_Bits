@@ -1,0 +1,12 @@
+{
+  "Usuarios": [
+    {
+      "nombre": "Jose Daniel Garcia",
+      "email": "Wearponbest@gmail.com",
+      "telefono": "3138987572",
+      "date": "1999-09-15",
+      "curso": [],
+      "id": 1
+    }
+  ]
+}

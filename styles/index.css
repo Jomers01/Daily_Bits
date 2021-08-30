@@ -67,6 +67,23 @@ body{
     padding: 12px 70px 15px 10px;
 }
 
+.btnIniciar{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 100px;
+    background-color: #EF4565;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnIniciar i{
+    font-size: 22px;
+    color: white;
+}
+
 .container-registro{
     margin-top: 30px;
 }
@@ -74,7 +91,7 @@ body{
 .RecupContraseña{
     display: block;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 40px;
     color: white;
 }
 
