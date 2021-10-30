@@ -5,8 +5,80 @@
       "email": "Wearponbest@gmail.com",
       "telefono": "3138987572",
       "date": "1999-09-15",
-      "curso": [],
+      "curso": [
+        [
+          {
+            "id": 3,
+            "pregunta": "Organiza la estructura de un documento HTML5",
+            "opcion1": "<code>&lt;DOCTYPE html&gt</code>",
+            "opcion2": "<code>&lt;body&gt&lt;/bodyl&gt</code>",
+            "opcion3": "<code>&lt;head&gt&lt;/headl&gt</code>",
+            "opcion4": "<code>&lt;html&gt<code>",
+            "opcion5": "<code>&lt;/html&gt</code>",
+            "tipo": "arrastrar",
+            "respuesta": [
+              "<DOCTYPE html>",
+              "<html>",
+              "<head></head>",
+              "<body></body>",
+              "</html>"
+            ]
+          }
+        ]
+      ],
       "id": 1
+    },
+    {
+      "nombre": "Jose Daniel",
+      "email": "jose@gmail.com",
+      "telefono": "3138987572",
+      "date": "1999-09-15",
+      "curso": [
+        [
+          {
+            "id": 2,
+            "imagen": "./images/chica2.png",
+            "pregunta": "¿Que significa DRY",
+            "opcion1": "Don`t repeat yellow",
+            "opcion2": "Don`t repeat yourself",
+            "opcion3": "Don`t repeat year",
+            "respuesta": "Don`t repeat yourself",
+            "tipo": "seleccion"
+          },
+          {
+            "id": 3,
+            "pregunta": "Organiza la estructura de un documento HTML5",
+            "opcion1": "<code>&lt;DOCTYPE html&gt</code>",
+            "opcion2": "<code>&lt;body&gt&lt;/bodyl&gt</code>",
+            "opcion3": "<code>&lt;head&gt&lt;/headl&gt</code>",
+            "opcion4": "<code>&lt;html&gt<code>",
+            "opcion5": "<code>&lt;/html&gt</code>",
+            "tipo": "arrastrar",
+            "respuesta": [
+              "<DOCTYPE html>",
+              "<html>",
+              "<head></head>",
+              "<body></body>",
+              "</html>"
+            ]
+          },
+          {
+            "id": 4,
+            "pregunta": "¿Que tecnologías pertenecen al MEVN Stack?",
+            "opcion1": "<img class='imgSelect' src='./images/vue.png'>",
+            "opcion1text": "Vue.js",
+            "opcion2": "<img class='imgSelect' src='./images/angular.png'>",
+            "opcion2text": "Angular",
+            "opcion3": "<img class='imgSelect' src='./images/windows.png'>",
+            "opcion3text": "Windows",
+            "opcion4": "<img class='imgSelect' src='./images/kotlin.png'>",
+            "opcion4text": "Kotlin",
+            "respuesta": "Vue.js",
+            "tipo": "imagen"
+          }
+        ]
+      ],
+      "id": 2
     }
   ]
 }

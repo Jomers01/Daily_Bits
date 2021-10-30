@@ -219,6 +219,7 @@ function comprobarRespSeleccion(cursoC){
             cursoL[0].curso.splice(0, 1, cursoC)
             //subo los cambios al localstorage
             localStorage.setItem('Login',JSON.stringify(cursoL));
+            
             //Le sumo al progreso
             progreso +=10;
             //llamo a la funcion nuevamente con enviandole la preguntas faltantes de ese modulo
